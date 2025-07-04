@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(236, 236, 236);
 }
 
 main {
-    background-color: rgb(180, 13, 13);
+    background-color: rgba(216, 135, 196, 0.87);
     width: 500px;
     padding: 10px;
     margin: 30px; /* Exemplo de margem */
