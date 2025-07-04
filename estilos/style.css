@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(223, 203, 192);
 }
 
 main {
@@ -12,11 +12,17 @@ main {
     width: 500px;
     padding: 10px;
     margin: 30px; /* Exemplo de margem */
-    border: 5px solid rgb(255, 255, 255); /* Borda que parecia ser o objetivo original */
+    border: 5px solid rgb(20, 20, 20); /* Borda que parecia ser o objetivo original */
 }
-
+.img-box {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(238, 238, 238); /* opcional, só se quiser borda */
+}
 body {
-    background-image: url('../imagens/twin.jpg');
+    background-image: url('../imagens/twin-peaks.png');
     background-size: cover;        /* cobre toda a tela */
     background-position: center;   /* centraliza a imagem */
     background-repeat: no-repeat;  /* evita repetição */
