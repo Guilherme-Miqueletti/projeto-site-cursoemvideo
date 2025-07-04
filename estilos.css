@@ -3,13 +3,14 @@
     font-size: 16px;
 }
 
-body{
+body {
     background-color: antiquewhite;
 }
 
-main{
+main {
     background-color: white;
     width: 500px;
-    padding: 10px;;
-    margin: 3xp 3xp 5p black solid;
+    padding: 10px;
+    margin: 30px; /* Exemplo de margem */
+    border: 5px solid black; /* Borda que parecia ser o objetivo original */
 }
