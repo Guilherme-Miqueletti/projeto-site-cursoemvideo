@@ -14,3 +14,14 @@ main {
     margin: 30px; /* Exemplo de margem */
     border: 5px solid black; /* Borda que parecia ser o objetivo original */
 }
+
+body {
+    background-image: url('../imagens/twin.jpg');
+    background-size: cover;        /* cobre toda a tela */
+    background-position: center;   /* centraliza a imagem */
+    background-repeat: no-repeat;  /* evita repetição */
+    background-attachment: fixed;  /* mantém a imagem fixa no fundo */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
