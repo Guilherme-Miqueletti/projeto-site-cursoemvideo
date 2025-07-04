@@ -8,18 +8,19 @@ body {
 }
 
 main {
-    background-color: rgba(255, 2, 2, 0.87);
+    background-color: rgba(219, 211, 211, 0.87);
     width: 500px;
     padding: 10px;
     margin: 30px; /* Exemplo de margem */
-    border: 5px solid rgb(20, 20, 20); /* Borda que parecia ser o objetivo original */
+    border: 5px solid rgb(255, 253, 253); /* Borda que parecia ser o objetivo original */
 }
 .img-box {
     width: 100%;
-    height: auto;
-    display: block;
+    max-width: 900px; /* ou o que você quiser */
     margin: 0 auto;
-    border: 2px solid rgb(238, 238, 238); /* opcional, só se quiser borda */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* fundo semitransparente */
+    box-sizing: border-box;
 }
 body {
     background-image: url('../imagens/twin-peaks.png');
